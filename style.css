@@ -1,0 +1,127 @@
+/* 
+Tyler Middleton
+8/13/2018
+notes:..
+*/
+
+
+
+body {
+
+    background-color:grey;
+    font-size: 18px;
+}
+
+
+header{
+
+    
+    margin-bottom: 15px;
+    margin-left:8em;
+    margin-right:8em;
+    padding:30px;
+    color: grey;
+    background: white;
+    text-align: center;
+    height: 40px;
+
+
+}
+
+nav {
+
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-top:1px;
+    margin-left:8em;
+    margin-right:8em;
+    padding: 25px;
+    color: grey;
+    background: white;
+    text-align: center;
+    height: 40px;
+    
+}
+
+section {
+
+    
+    margin-bottom: 10px;
+    margin-top:1px;
+    margin-left:8em;
+    padding: 10px 10px 40px 35px;
+    color: grey;
+    background: white;
+    text-align: center;
+    float:left;
+    width:45%;
+    height: 18em;
+
+}
+
+aside {
+    float:right;
+    margin-bottom: 45px;
+    margin-right: 8em;
+    padding: 25px;
+    color: grey;
+    background: white;
+    text-align: center;
+    width:30%;
+    height: 18em;
+    right:0;
+    
+    
+
+}
+
+
+footer {
+    
+    
+    margin-top: 415px;
+    margin-bottom: 45px;
+    margin-right:8em;
+    margin-left: 8em;
+    padding: 35px 15px 0px 150px;
+    color: grey;
+    background: white;
+    text-align: center;
+    height: 70px;
+    
+}
+
+#article {
+
+    margin-bottom: 120px;
+    margin-top:100px;
+    margin-left:2.5em;
+    margin-right:5em;
+    padding: 25px;
+    color: white;
+    background: grey;
+    text-align: center;
+    float:left;
+    width:85%;
+    height: 9.5em;
+}
+
+h1 {
+
+    color: grey;
+    background-color:white;
+    height:2em;
+    padding:25px 10px 0px 5px;
+
+}
+
+p {
+
+    
+    color: grey;
+    background-color:white;
+    height:2em;
+    padding:15px 10px 0px 5px;
+
+}
+
