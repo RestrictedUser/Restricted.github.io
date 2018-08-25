@@ -1,0 +1,91 @@
+JavaScript Notes
+
+-evernode/oneNode note taking software?
+-Variables need meaningful names to be memorable for when you return to older contained
+    -----   -----
+-console.log("text");
+console.log(var); -- No "" on var.
+*ex console.log(); is used as a way to debug because they are viewable in the developer tools
+
+-Prompt/Confirm/alert
++prompt allows you to input a value
++ confirm gives you a "ok" or "cancel" option
++ alert gives no other options and simply shows text in a box (unless and else statement is added)
+
+-document.write("text")
++This command will put the text on the screen
+
+if/else statements
+if true then move to else
+
+-strings and numbers
++ things in "" are strings and can not be added into values
+
+*EX ("5" === 5) these are not equal because one is a string
+
+*EX ("5" == 5) because one less = is present the terms are looser and java interprets and understands the string is equal to the number
+
+*EX ("5" + "5") = "55"); because the numbers are in a string the + sign combines the strings and not the numbers value.
+
+-Arrays
+
+
+*EX
+var zooAnimals =["Zebra", "Rhino", "Giraffe", "Owl"];
+
++ console.log(zooAnimals.length); Returns 4
+This is because there are 4 strings inside the Arrays
++ console.log(zooAnimals[1]); Returns "Rhino" because the array counts from 0 and up. The first animal "Zebra" being [0];.
+
+var nickCharacters = ["Tommy", "Doug", "Oblina"]; --text values
+var diceNumbers = [1, 2, 3, 4, 5, 6]; -- number values no limit
+var mixedArray = ["Zoo", 12, "Carrot", 3, true];
+
+console.log(array.indexOf("parrot"));
+
+homework notes: use an array to store the previous guesses and use a .push to get them into the array.
+
+
+
+
+*ex of Variables
+
+    <!-- Note the script tag here as well as the "text/javascript" -->
+    <!-- When we write JavaScript in HTML, it must be contained within a <script> tag. -->
+    <script type="text/javascript"> --how to connect to your html/css
+
+      // Variables can be strings, numbers, or booleans (true / false)
+
+      var name = "Snow White";  --text value
+      var dwarfCount = 7;   -- number value
+      var isSleeping = true;    --bolean value
+
+    </script>
+
+    ------------------- --------------------
+
+    *ex <script type="text/javascript">
+
+    var name = "Tyler";
+    var pizzaCount = "7";
+    var isHungry= "True";
+
+
+    // Below var totalCost is multiplied by the input of pizzaCount
+    var totalCost = pizzaCount * 500.00;
+
+    alert("Welcome: " + name);
+
+    alert("Pizzas cost $500 each");
+
+    alert("Your total is: $" + totalCost);
+
+    alert("Still Hungry: " + isHungry);
+
+    if(isHungry) {
+      alert("Thats right fat boy...")
+    }
+    </script>
+        ------------------------    -------------
+    
+

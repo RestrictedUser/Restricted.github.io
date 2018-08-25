@@ -1,0 +1,39 @@
+JavaScript Continued <script type="text/javascript"></script>
+-alert: shows to user
+-prompt: displays a message and takes input from user 
+-console.log(): returns info to the developer
+-document.write("this is your text"): returns text into the html
+-if/else: checks conditions (in boleans usually if is for true and else if for flase)
+-14=='14' is true but 14==='14' is false the '===' is for exact information when '==' will interpret.
+
+-arrays: a type of variable that are collections of multiple values text and/or numbers
+*EX.
+["tommy",12,"carrot"]
+
+-.function.toLowerCase can make things lower case like arrays
+
+- for loops:
+*EX.
+// Creating an array of vegetables.
+      var vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
+
+      // Looping through each item in the array and logging a message to the console.
+      for (var i = 0; i < vegetables.length; i++) {
+        console.log("I love " + vegetables[i]);
+      }
+*logs console as the for loop = the length of the array which is 4.
+
+
+- event 
+ex. document.onkeyup
+
+-variables= text/numbers
+-events=code
+
+psuedo code
+-value of each choice
+-how to choose what choice your throwing
+-how to choose what choice computer is choosening
+-what choice is >/< or =
+-confirm the winner
+-repeat

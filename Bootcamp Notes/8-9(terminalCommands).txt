@@ -1,0 +1,32 @@
+Version Control:
+- every HW/project assignment should have its own repository  
+- pull from repository so you know you have latest Version
+-push once you have made your changes so the version is updated
+- effiecent way to keep history and prevent cross-work issues
+
+terminal commands:
+TAB KEY WILL HELP AUTOCOMPLETE COMMANDS/FILES 
+ls- list items
+cd- current
+mkdir-makedirectory
+ni-new item
+nf-new folder
+ii.-to open
+start- "name" opens folder
+git clone "url"- takes repository url and adds it to a local folder in files
+cls- clear
+git pull- pull latest file
+git push- sends your changes/version
+git status- tells you if files changed 
+git add "file"- stages file getting it ready for push track item. git status to test if added correctly
+git commit - notes a change to the local repository
+git clone- copies an entire repository
+
+(if using a new repository or a different one make sure you make a new localized file or choose the correct existing local repository)
++ local repository is made by taking the copy of the "url" found on github +
+git push command order:
+1.-move saved file from local folder to the  local repository folder.
+2.-right click local repository file and "git bash here"
+3.-git add "filename.html"
+4.-git commit -m "notes" (this prepares the files for push)
+5.-git push origin master (sends files to github repo)

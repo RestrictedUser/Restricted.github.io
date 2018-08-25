@@ -1,0 +1,20 @@
+CSS
+
+IMPORTANT: MAKE SURE YOU ARE NOT SCHEDULED AS MISSING THIS CLASS
+ON BOOTCAMPV2 IT SHOWS AS "REQUEST ABSENSE" BUT ON ADMIN SITE IT SHOWS YOUR PRESENT.
+
+-id for single tag (more specific)
+-class used for multiple tags(broad)
+-connecting css externally <link rel="stylesheet" type="text/css" href="style.css">
+-html/css go in seperate files but the same folder.
+
+Positioning
+-Static: positioned elements are not affected by the top, bottom, left, and right properties.
+-relative: positions relative to its parent
+-absolute: Positioning native to nearest ancestor
+-fixed: based on browser window ex. pop ups that stay fixed in center whether you scroll away
+-z-index: allows you to layer elements on top of each other when they're positioned
+ex. z-index: 100; vs z-index: 101; the element with the z-index of 101 comes to the top.
+-hiding elements: display: none; (hides element from view) visibility:hidden; ()
+-
+hint: try doing flex box froggy again for practice

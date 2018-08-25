@@ -1,0 +1,70 @@
+CSS
+div{
+    margin:0 auto;
+    text-aligh:center;
+}
+* The margin setting allows the text-align to center the div.
+
+-line height: distance between lines of text on a page(golden ratio of 1.5x font)
+-font-size: actual size of lettering. Should be at least 16px
+
+-line length: nos css property but rather a standard. 
+Should be about 50-75 charcters per line on a desktop.
+
+- letter spacing: spacing between individual letters
+
+-sans-Serif vs serif: sans-serif are fonts sans their serifs--no  tails.
+
+-tails: the tail that comes off the end of the lettering in texts
+
+-leading: space between blocks of text.
+
+-Google Fonts:<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
+
+-Pseudo Classes: keywords that can be added to cause mouse actions
+(normally used for links)
++Default state:
++Hover state:Text enlarges when mouse passes over
++Focus state: Cursor is sent to this field and remains there whether mouse moves.
++Active state:Changes the state of the button when when moused over ex. input a password to press enter.
+
+ex.
+a:hover {
+
+    background-color:red;
+}
+*The mouse only changes style when the mouse is hovered over the link because it has the hover state.
+
+a:active {
+
+    background-color:red;
+}
+*Active state only completes the style when the mouse is clicked. When the mouse is released it looses the applied style/state.
+
+
+BOOT STRAP
+-copy and paste css through bootstrap classes (you dont have to memorize classes)
+
+-link from bootstrap creates css
+
+-elements classes apply what css effects which elements
+
+-classes are all pre-defined universal class names no matter what css template you use.
+
+-multiple devices can have the same look and functionality and responds with appropiate style.
+
+-twitter devloped bootstrap
+
+-like jquery css is getting phased out and bootstrap is becoming the best way to efficently develop your webpages.
+
+-basically a css premade template (expected to be used in modern day development)
+
+-download bootstrap for local copy to tweak CSS(if not on a local file the CSS is in a non-local file in the web)
+
+-glpyhs are icons through bootsrap using predefined classes (260 unique glyphs available)
+
+- ex.href="hhttps://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+*the .min.css is to specify minified files so that the file isnt to large.
+
+- ex. <button class="btn btn-danger btn-lg></button>
+* example of predefined bootstrap class.

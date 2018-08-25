@@ -1,0 +1,60 @@
+functions
+
+bigArray.forEach(function (hero) {
+    console.log(hero);
+})
+forEach is a predetermined function that will run for loops on a array
+
+*EX.         below is functions name
+function changeBrowser(){
+                    -- in here we add function code/content
+console.log(x+y+z);
+            
+};
+
+myFunction(arguement){
+--inside the () is where the function has its arguement
+};
+
+
+
+
+*EX.
+METHODS
+invoking/calling a function as a method
+In JavaScript you can define functions as object methods.
+
+The following example creates an object (myObject), with two properties (firstName and lastName), and a method (fullName):
+
+var myObject = {
+    firstName:"John",
+    lastName: "Doe",
+    fullName: function () {
+        return this.firstName + " " + this.lastName;
+    }
+}
+myObject.fullName();         // Will return "John Doe"
+
+EX. of object:
+var gandalf = {
+      "real name": "Gandalf",
+      "age (est)": 11000,
+      "race": "Maia",
+      "haveRetirementPlan": true,
+      "aliases": [
+        "Greyhame",
+        "Stormcrow",
+        "Mithrandir",
+        "Gandalf the Grey",
+        "Gandalf the White"
+      ]
+    };
+
+    how to declare a function driveToWork that is an object or inside one
+    always declare the object that the function is coming from
+    ex. when var = car and a function is a condition of the var oject car then
+    we use car.driveToWork(); to run the function.
+
+
+    Scope:
+    Importance of putting the code inside to correct set of {} because if they are not included the functions inside the {}scope wont be accesible.

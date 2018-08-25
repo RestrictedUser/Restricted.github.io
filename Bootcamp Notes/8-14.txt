@@ -1,0 +1,11 @@
+Flow notes
+-Span: tells html this goes onto the next line like div
+-colspan: collum version of Span
+-float: text moves around the element. Makes other elements flow around it.
+-positioning: up/down/left/right
+-every element is basically a div with more defining qualities
+-class: apply to multiple elements 
+-id: singular element
+-reset.css: reset.css allows you to see reset html and work from a baseline to make it work on all browsers
+you would have to re-style css but it would make it cross-browser compatible.
+-
